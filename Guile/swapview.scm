@@ -1,5 +1,6 @@
 #!/usr/bin/env guile
 !#
+(gc-disable)
 (use-modules (ice-9 rdelim)
              (ice-9 ftw)
              (ice-9 futures)
